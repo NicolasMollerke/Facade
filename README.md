@@ -10,7 +10,7 @@ O Facade é um padrão de desnvolvimento estrutural que permite a criação de u
 2. A criação de uma classe Facade Adicional pode ser feita com objetivo de prevendi a poluição de uma única facade com funcionalidade irrelevantes.
 3. O Subsistema Complexo consiste em múltiplos objetos variados. Para torna-los funcionais você precisa ter conhecimento profundo nos detalhes de implementação. As classes do subsistema não sabem da existência da Facade.
 4. O cliente tem acesso a Facade ao invés dos objetos do subsistema diretamente.
-![alt text](.github/images/image.png)
+<img width="840" height="570" alt="Image" src="https://github.com/user-attachments/assets/09ac7cfb-6d1a-40f7-96d2-e48a6caca935" />
 
 
 ---
