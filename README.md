@@ -1,7 +1,17 @@
 # Facade
 
 ### O que é?
-O Facade é um padrão de desnvolvimento estrutural que permite a criação de uma interface simplicada para um subsistema complexo.
+O Facade é um padrão de desnvolvimento estrutural que permite a criação de uma interface simplicada para um subsistema complexo. Uma Facde fornece funcionalidade limitadas quando comparada com os subsistemas, visando incluir apenas as ações que o cliente se importa.
+
+---
+
+### Estutura:
+1. A Facade fornece acceso a uma funcionalidade específica do subsistema. 
+2. A criação de uma classe Facade Adicional pode ser feita com objetivo de prevendi a poluição de uma única facade com funcionalidade irrelevantes.
+3. O Subsistema Complexo consiste em múltiplos objetos variados. Para torna-los funcionais você precisa ter conhecimento profundo nos detalhes de implementação. As classes do subsistema não sabem da existência da Facade.
+4. O cliente tem acesso a Facade ao invés dos objetos do subsistema diretamente.
+![alt text](.github/images/image.png)
+
 
 ---
 
@@ -20,6 +30,6 @@ Em um contexto contidiano uma Facade funciona como um operador de uma loja que v
 
 | Prós | Contras |
 | :--- | :--- |
-|Isolamentos de Complexidade |Barreira para Recursos Avançados |
-|Baixo Acomplamento |Mais uma Camada de Código |
-|Fácil Aprendizagem | |
+| Isolamentos de Complexidade | Barreira para Recursos Avançados |
+| Baixo Acomplamento | Mais uma Camada de Código |
+| Fácil Aprendizagem | |
